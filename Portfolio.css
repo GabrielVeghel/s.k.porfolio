@@ -1,0 +1,232 @@
+.header1 {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+nav {
+    background-color: #333;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+@media only screen and (max-width: 768px) {
+    p,
+    h1 {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .header1,
+    h1 {
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: grey;
+}
+
+@media only screen and (max-width: 320px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+td,
+th,
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.zaterdag {
+    height: 30px;
+    background-color: grey;
+    color: white
+}
+
+.text-align {
+    text-align: center;
+}
+
+.blue {
+    background-color: rgb(62, 62, 115);
+    color: white;
+    width: 220px;
+    border: none;
+    height: 100px;
+    padding: 5px;
+}
+
+.white {
+    background-color: rgb(162, 173, 220);
+    color: rgb(41, 41, 80);
+}
+
+.gold {
+    background-color: gold;
+    color: white;
+}
+
+.headP {
+    text-align: center;
+    color: white;
+}
+
+.blue2 {
+    background-color: rgb(162, 173, 220);
+    border: none;
+    text-align: center;
+}
+
+.blue3 {
+    background-color: rgb(162, 173, 220);
+    border: none;
+    text-align: center;
+    height: 30px;
+    font-size: 50px;
+}
+
+.height1 {
+    background-color: rgb(62, 62, 115);
+    height: 30px;
+    width: 220px;
+    border: none;
+    padding: 5px;
+}
+
+.image24 {
+    width: 20px;
+    height: 20px;
+}
+
+.character {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+/* For mobile phones: */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+.para {
+    color: rgb(62, 62, 115);
+    padding: 10px;
+    font-size: 13px;
+}
+
+.tSizing1 {
+    font-size: 14px;
+}
+
+.tSizing2 {
+    font-size: 14px;
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

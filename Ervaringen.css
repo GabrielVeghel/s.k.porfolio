@@ -1,0 +1,136 @@
+.header1 {
+    font-size: 14px;
+    font-family: "PT Sans", sans-serif;
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+nav {
+    background-color: #333;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+@media only screen and (max-width: 768px) {
+    p,
+    h1 {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: grey;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 320px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+p {
+    text-align: center;
+    color: grey;
+}
+
+.black {
+    color: black;
+}
+
+.para {
+    text-align: center;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}

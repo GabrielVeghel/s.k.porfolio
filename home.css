@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.header1 {
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+.pos {
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    background-color: rgb(226, 148, 3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.b1 {
+    display: none;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.pos2 {
+    text-align: center;
+    color: grey;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.s2 {
+    font-size: 2px;
+}
+
+body {
+    background-image: url("bush.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
